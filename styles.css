@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 65px;
+    width: 100%;
+    z-index: 1;
+    background-color: #d32213;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 28px;
+}
+
+#logo {
+    width: auto;
+    height: 65px;
+}
+
+.nav-container ul {
+    margin: 0;
+}
+
+.nav-container li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-container li a {
+    display: flex;
+    padding-top: 22px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 22px;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-container li a:hover {
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    background-color: black;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 14px;
+}
+
+.dropdown-menu a {
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.img_Etec {
+    justify-content: center;
+    display: flex;
+}
+
+.img_Etec img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+}
+
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.titulo h1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    font-size: 68px;
+}
+
+/* Estilo para a seção Sobre */
+#SOBRE {
+    background-color: #f4f4f4; /* Cor de fundo */
+    padding: 40px 0; /* Espaçamento interno superior e inferior */
+}
+
+.Sobre-section {
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+.Sobre-container {
+    max-width: 800px; /* Largura máxima do container */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+/* Estilo para o título */
+.Sobre-container h2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo para o parágrafo */
+.Sobre-container p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #666; /* Cor do texto */
+    font-size: 16px; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para a seção do mapa */
+#LOCALIZACAO {
+    background-color: #f9f9f9; /* Cor de fundo */
+    padding: 40px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Centralizar o conteúdo */
+}
+
+.map-box {
+    max-width: 800px; /* Largura máxima do container */
+    margin: 0 auto; /* Centralizar horizontalmente */
+}
+
+/* Estilo para o título */
+.map-box h3 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #333; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para o iframe do mapa */
+.map-box iframe {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.cod-container {
+    text-align: center;
+}
+
+#cod {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
