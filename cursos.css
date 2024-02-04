@@ -1,0 +1,175 @@
+body{
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p, span{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    height: 65px;
+    width: 100%;
+    z-index: 1;
+    background-color: #d32213;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 28px;
+}
+
+#logo{
+    width: auto;
+    height: 65px;
+}
+
+.nav-container ul{
+    margin: 0;
+}
+
+
+.nav-container li{
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-container li a{
+    display: flex;
+    padding-top: 22px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 22px;
+    text-decoration: none;
+    color: white;
+    transition: .5s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.nav-container li a:hover{
+    color: black;
+    background-color: white;
+    text-align: center;
+}
+
+.dropdown-menu{
+    position: absolute;
+    display: none;
+    background-color: black;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 14px;
+}
+
+.dropdown-menu a{
+    display: block;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+main {
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    padding-top: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+h4 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    color: #555;
+    margin-bottom: 5px;
+}
+
+li ul {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+b {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+}
+
+footer > p {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+}
+
+.cod-container {
+    text-align: center;
+}
+
+#cod {
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
